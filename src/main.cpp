@@ -1,13 +1,13 @@
 #include "macrologger.h"
-#include "drwho.hpp"
+#include "drwho.cpp"
 
 int main(int argc, char* argv[]) 
 {
-	LOG_INFO("Testworkshop Catch Tutorial")
+	LOG_INFO("Testworkshop Catch Tutorial");
 
 	DrWho theDoctor;
 
-	theDoctor.travel(2016);
+	theDoctor.travelToYear(2016);
 
 	LOG_INFO("theDoctor traveled to year: %i", theDoctor.locate());
 	
